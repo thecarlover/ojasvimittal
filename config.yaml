@@ -1,0 +1,109 @@
+baseURL: "https://arkalim.netlify.app"
+languageCode: en-us
+title: Ojasvi Mittal
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog/Projects
+      url: /blog
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about
+      weight: 30
+   
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects
+    #   weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: accomplishments
+      name: Accomplishments
+      url: /accomplishments
+      weight: 50
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+   
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Ojasvi Mittal"
+    subtitle: "An enthusiastic third-year undergraduate, currently pursuing a Bachelor's in Computer Science and Engineering at Graphic Era Hill University, Dehradun Campus, I am deeply passionate about creating captivating digital experiences. Specializing in web development, I thrive on transforming concepts into reality, crafting elegant user interfaces and robust backend systems. Proficient in a diverse array of technologies, including the MERN stack (MongoDB, Express, React, Node), as well as frameworks and libraries such as Clerk, Hugo, Three.js, Bootstrap, WebRTC, and Stream, I am dedicated to continual learning through workshops and hands-on projects. Committed to excellence, I actively engage in recreating various websites, honing my skills in both front-end and back-end development. With each endeavor, my goal is to surpass boundaries, deliver impactful solutions, and make meaningful contributions to the ever-evolving field of development."
+    imageUrl: "home/profile.webp"
+    imageWidth: 220
+    imageHeight: 220
+    buttons:
+    - name: Resume
+    url: "https://drive.google.com/drive/folders/1Mg1lLxxcLvQRJOMhZqx2E3-6oHfeDTwT?usp=share_link"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:s1mittal@hotmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ojasvi-mittal-a787821b2"
+    - name: "github"
+      url: "https://github.com/thecarlover"
+    - name: "instagram"
+      url: "https://www.instagram.com/the_car_lover.6505/"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
