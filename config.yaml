@@ -65,7 +65,7 @@ params:
     imageHeight: 220
     buttons:
     - name: Resume
-    url: "https://drive.google.com/drive/folders/1Mg1lLxxcLvQRJOMhZqx2E3-6oHfeDTwT?usp=share_link"
+    url: "https://app.luminpdf.com/viewer/6624eac474191ff65a6253ad"
 
   # List View
   hideDescriptionInList: false
