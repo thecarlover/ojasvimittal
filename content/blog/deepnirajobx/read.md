@@ -6,7 +6,7 @@ draft: false
 tags: ["Job", "VS Code", "API"]
 weight: 101
 cover: 
-     image: "/blog/deepniraJobX_images/.cover.png"
+     image: "./blog/deepniraJobX_images/cover.png"
 
 ---
 
