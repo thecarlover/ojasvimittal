@@ -5,7 +5,7 @@ draft: false
 tags: ["Google","google","certificate","analytics","course"]
 weight: 101
 cover: 
-    image: "/accom/.cer.png"
+    image: "./accom/cer.png"
 ---
 ### Google Analytics Academy
 
