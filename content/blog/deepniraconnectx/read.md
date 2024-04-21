@@ -6,7 +6,7 @@ draft: false
 tags: ["Zoom", "Stream", "Clerk", "Developer", "VS Code"]
 weight: 101
 cover:
-    image: "/blog/deepniraconnectx_images/.cover.png"
+    image: "./blog/deepniraconnectx_images/cover.png"
 ---
 
 # Credentials
