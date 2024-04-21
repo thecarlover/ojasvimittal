@@ -7,7 +7,7 @@ tags: ["Coding", "Programming", "Web Development"]
 categories: ["Coding", "Programming", "Web Development","mentors"]
 weight: 101
 cover: 
-    image: "/blog/coding_journey/.cover.png"
+    image: "./blog/coding_journey/cover.png"
 
 ---
 
