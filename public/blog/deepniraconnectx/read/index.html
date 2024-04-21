@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How I am Making DeepNira ConnectX | Ojasvi Mittal</title>
+<meta name="keywords" content="Zoom, Stream, Clerk, Developer, VS Code">
+<meta name="description" content="DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication.">
+<meta name="author" content="">
+<link rel="canonical" href="https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/">
+<link crossorigin="anonymous" href="/thecarlover/ojasvimital.site.git/assets/css/stylesheet.min.a72801f0f40a8d7f71aa1cafd1c2f2a993a1f26ca1cfd38fdba65d5b9b0f08a0.css" integrity="sha256-pygB8PQKjX9xqhyv0cLyqZOh8myhz9OP26ZdW5sPCKA=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/thecarlover/ojasvimital.site.git/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://github.com/thecarlover/ojasvimital.site.git/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://github.com/thecarlover/ojasvimital.site.git/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://github.com/thecarlover/ojasvimital.site.git/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://github.com/thecarlover/ojasvimital.site.git/apple-touch-icon.png">
+<link rel="mask-icon" href="https://github.com/thecarlover/ojasvimital.site.git/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="How I am Making DeepNira ConnectX" />
+<meta property="og:description" content="DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/" />
+<meta property="og:image" content="https://github.com/blog/deepniraconnectx_images/.cover.png" /><meta property="article:section" content="blog" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://github.com/blog/deepniraconnectx_images/.cover.png" />
+<meta name="twitter:title" content="How I am Making DeepNira ConnectX"/>
+<meta name="twitter:description" content="DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Blogs",
+      "item": "https://github.com/thecarlover/ojasvimital.site.git/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "How I am Making DeepNira ConnectX",
+      "item": "https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How I am Making DeepNira ConnectX",
+  "name": "How I am Making DeepNira ConnectX",
+  "description": "DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication.",
+  "keywords": [
+    "Zoom", "Stream", "Clerk", "Developer", "VS Code"
+  ],
+  "articleBody": "Credentials 🔗 Github Link 🔗 Site Link Introduction In a world where distance is no longer a barrier to connectivity, DeepNira Connect X emerges as the epitome of seamless virtual collaboration. As we navigate through an era marked by remote work, online education, and virtual social interactions, our platform stands at the forefront of innovation, offering a transformative experience that transcends traditional boundaries.\nAt its core, DeepNira Connect X is more than just a video conferencing tool—it’s a dynamic ecosystem designed to foster meaningful connections and empower individuals and teams to achieve their goals regardless of physical location. Whether you’re a business professional, educator, or social enthusiast, our platform provides the tools and resources needed to thrive in today’s digital landscape.\nWith DeepNira Connect X, hosting or joining a video conference has never been easier. Our sleek and intuitive interface ensures a seamless user experience, allowing you to initiate or join meetings with just a few clicks. Say goodbye to complicated setup processes and hello to effortless virtual interactions.\nTechnologies Used DeepNira Connect X leverages cutting-edge technologies to deliver a seamless user experience:\nNext.js: Our front-end is built using Next.js, a powerful React framework that enables server-side rendering and efficient client-side routing. This ensures fast loading times and a smooth, responsive interface for users.\nClerk Authentication: For secure backend authentication, we rely on Clerk. Its robust authentication system offers user-friendly sign-up and login flows, as well as customizable authentication policies to meet our specific security needs.\nStream for Video Outputs: Video streaming is made possible through Stream, a reliable platform that provides scalable, low-latency video delivery. With Stream, users can enjoy high-quality video conferencing without interruptions or delays.\nVercel for Deployment: We trust Vercel for seamless deployment of our application. Its intuitive interface and continuous deployment capabilities allow us to quickly and effortlessly publish updates and new features to DeepNira Connect X.\nVS Code as Code Editor: Our development relies on Visual Studio Code (VS Code) for efficient coding and collaboration. With its extensive selection of extensions and powerful editing features, VS Code streamlines the development process and enhances productivity.\nBy leveraging these technologies, DeepNira Connect X ensures a secure, reliable, and high-performance platform for virtual collaboration and communication.\nAbout Clerk Authentication Clerk Authentication serves as the robust backbone of DeepNira Connect X’s backend authentication system. With Clerk, we ensure that user authentication is not just secure, but also seamless and user-friendly. Clerk offers a range of authentication features, including customizable sign-up and login flows, passwordless authentication options, and multi-factor authentication for enhanced security. Its flexible authentication policies allow us to tailor the authentication process to our specific requirements, providing a frictionless experience for users while maintaining the highest standards of security. DeepNira Connect X users can trust that their data and interactions are protected, thanks to the advanced authentication capabilities provided by Clerk.\n🔗 Clerk Docs How I Give Approach to Web App Approaching frontend and backend development in Next.js with a combination of reading documentation and utilizing resources like GitHub for assistance can be a highly effective strategy. Here’s a suggested approach:\nUnderstanding Next.js Fundamentals: Start by reading the official Next.js documentation to grasp the fundamentals of building applications with Next.js. This includes learning about server-side rendering, routing, data fetching, and component-based architecture.\nExploring GitHub Repositories: Search GitHub repositories for Next.js projects to see how others have structured their frontend code. Look for repositories with well-documented code and examples that align with your project’s requirements. Analyze how they handle routing, state management, and component organization.\nLearning from Tutorials and Guides: Explore tutorials, guides, and blog posts related to Next.js frontend development. These resources often provide step-by-step instructions and practical examples to help you understand concepts and best practices.\nImplementing Backend Functionality with Clerk Authentication: Refer to Clerk Authentication documentation to integrate authentication features into your Next.js application’s backend. Follow the provided guides and examples to set up user authentication, manage user sessions, and handle authentication-related tasks securely.\nUtilizing Community Support: Engage with the Next.js community on platforms like GitHub, Stack Overflow, and forums dedicated to Next.js development. Ask questions, seek advice, and share your experiences to benefit from the collective knowledge and expertise of the community.\nExperimenting and Iterating: As you gain familiarity with Next.js frontend and backend development, experiment with different approaches, tools, and libraries to find what works best for your project. Iterate on your codebase based on feedback, performance considerations, and evolving requirements.\nBy combining self-study through documentation with active engagement with the developer community, you can effectively navigate frontend and backend development in Next.js using Nexus, leveraging resources like GitHub for support and inspiration along the way.\nMentors Support Taking help from mentors can greatly accelerate your learning and development process in Next.js with Nexus. Here’s a suggested approach:\nIdentifying Potential Mentors: Look for experienced developers in the Next.js and Nexus communities who are willing to offer guidance and support. This could be accomplished through networking events, online forums, social media platforms, or developer communities like Discord or Slack.\nReaching Out: Once you’ve identified potential mentors, reach out to them with a polite and concise message expressing your interest in learning more about Next.js and Nexus development. Explain your background, your current level of proficiency, and specific areas where you could benefit from their expertise.\nEstablishing Expectations: Clarify your expectations for the mentoring relationship, including the frequency and format of interactions, preferred communication channels, and the specific topics or challenges you’d like to address. Be respectful of their time and availability, and be prepared to adapt to their schedule.\nActively Engaging in Learning: During mentoring sessions, come prepared with questions, code snippets, or specific challenges you’re facing in your Next.js and Nexus projects. Take notes, listen attentively, and actively participate in discussions to maximize the value of each interaction.\nSeeking Feedback and Guidance: Don’t hesitate to seek feedback on your code, architecture decisions, and overall project strategy from your mentors. Be open to constructive criticism and suggestions for improvement, and use their expertise to refine your skills and elevate the quality of your work.\nApplying Lessons Learned: After each mentoring session, take time to reflect on the insights gained and apply them to your Next.js and Nexus projects. Experiment with new techniques, implement best practices, and incorporate feedback to continually enhance your development skills.\nExpressing Gratitude: Show appreciation for your mentors’ time, guidance, and expertise by expressing gratitude through thank-you notes, testimonials, or recommendations. Building positive relationships with mentors can lead to long-term mentorship opportunities and valuable connections within the developer community.\nBy actively engaging with mentors, seeking their guidance, and applying the lessons learned to your Next.js and Nexus projects, you can accelerate your learning journey and achieve greater proficiency in frontend and backend development.\nTech Stacks Used Hardware:\nMac M1 laptop: Utilized as the primary development machine for coding and testing. Frontend Development:\nNext.js: Framework for building React applications with server-side rendering and routing. React: JavaScript library for building user interfaces. HTML/CSS: Standard languages for structuring and styling web pages. GitHub: Version control platform for managing codebase and collaboration. Backend Development:\nClerk Authentication: Service for backend authentication, managing user sessions, and authentication-related tasks. Node.js: JavaScript runtime environment for executing server-side code. Express.js: Web application framework for building APIs and handling HTTP requests. MongoDB: NoSQL database for storing application data. Mongoose: MongoDB object modeling library for Node.js. GitHub: Version control platform for managing backend codebase and collaboration. Video Streaming:\nStream: Platform for integrating video streaming capabilities into the application. Deployment:\nVercel: Platform for deploying Next.js applications with ease and scalability. Documentation:\nNext.js Documentation: Official documentation for Next.js framework, providing guidance on usage, features, and best practices. Clerk Documentation: Documentation for Clerk Authentication, offering resources for integrating authentication features into the backend. Stream Documentation: Documentation for Stream platform, offering resources for integrating video streaming capabilities. GitHub: Platform for accessing documentation, repositories, and community resources for various technologies. By leveraging these technologies and tools, the development team can efficiently build, deploy, and maintain DeepNira Connect X, ensuring a seamless user experience for virtual collaboration and communication.\nThat’s all folks That was all about the My Project Hope You Like it\nDo Follow Me On Github\nThanks a lot for reading!\n",
+  "wordCount" : "1365",
+  "inLanguage": "en",
+  "image":"https://github.com/blog/deepniraconnectx_images/.cover.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ojasvi Mittal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://github.com/thecarlover/ojasvimital.site.git/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://github.com/thecarlover/ojasvimital.site.git" accesskey="h" title="Ojasvi Mittal (Alt + H)">Ojasvi Mittal</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/blog" title="Blog/Projects">
+                    <span>Blog/Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/experience" title="Experience">
+                    <span>Experience</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/accomplishments" title="Accomplishments">
+                    <span>Accomplishments</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/thecarlover/ojasvimital.site.git/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://github.com/thecarlover/ojasvimital.site.git">Home</a>&nbsp;»&nbsp;<a href="https://github.com/thecarlover/ojasvimital.site.git/blog/">Blogs</a></div>
+    <h1 class="post-title">
+      How I am Making DeepNira ConnectX
+    </h1>
+    <div class="post-description">
+      DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication.
+    </div>
+    <div class="post-meta">
+
+
+Apr 2024
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://github.com/blog/deepniraconnectx_images/.cover.png" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">‎ Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#credentials" aria-label="Credentials">Credentials</a><ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#-github-linkhttpsgithubcomthecarloverzoomgit" aria-label="🔗 Github Link">🔗 <a href="https://github.com/thecarlover/zoom.git">Github Link</a></a></li>
+                <li>
+                    <a href="#-site-linkhttpsdeepnira-connectxvercelapp" aria-label="🔗 Site Link">🔗 <a href="https://deepnira-connectx.vercel.app">Site Link</a></a></li></ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#introduction" aria-label="Introduction">Introduction</a></li>
+                <li>
+                    <a href="#technologies-used" aria-label="Technologies Used">Technologies Used</a></li>
+                <li>
+                    <a href="#about-clerk-authentication" aria-label="About Clerk Authentication">About Clerk Authentication</a><ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#-clerk-docshttpsclerkcomdocs" aria-label="🔗 Clerk Docs">🔗 <a href="https://clerk.com/docs">Clerk Docs</a></a></li></ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#how-i-give-approach-to-web-app" aria-label="How I Give Approach to Web App">How I Give Approach to Web App</a></li>
+                <li>
+                    <a href="#mentors-support" aria-label="Mentors Support">Mentors Support</a></li>
+                <li>
+                    <a href="#tech-stacks-used" aria-label="Tech Stacks Used">Tech Stacks Used</a></li>
+                <li>
+                    <a href="#thats-all-folks" aria-label="That&amp;rsquo;s all folks">That&rsquo;s all folks</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="credentials">Credentials<a hidden class="anchor" aria-hidden="true" href="#credentials">#</a></h1>
+<h3 id="-github-linkhttpsgithubcomthecarloverzoomgit">🔗 <a href="https://github.com/thecarlover/zoom.git">Github Link</a><a hidden class="anchor" aria-hidden="true" href="#-github-linkhttpsgithubcomthecarloverzoomgit">#</a></h3>
+<h3 id="-site-linkhttpsdeepnira-connectxvercelapp">🔗 <a href="https://deepnira-connectx.vercel.app">Site Link</a><a hidden class="anchor" aria-hidden="true" href="#-site-linkhttpsdeepnira-connectxvercelapp">#</a></h3>
+<h1 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h1>
+<p>In a world where distance is no longer a barrier to connectivity, DeepNira Connect X emerges as the epitome of seamless virtual collaboration. As we navigate through an era marked by remote work, online education, and virtual social interactions, our platform stands at the forefront of innovation, offering a transformative experience that transcends traditional boundaries.</p>
+<p>At its core, DeepNira Connect X is more than just a video conferencing tool—it&rsquo;s a dynamic ecosystem designed to foster meaningful connections and empower individuals and teams to achieve their goals regardless of physical location. Whether you&rsquo;re a business professional, educator, or social enthusiast, our platform provides the tools and resources needed to thrive in today&rsquo;s digital landscape.</p>
+<p>With DeepNira Connect X, hosting or joining a video conference has never been easier. Our sleek and intuitive interface ensures a seamless user experience, allowing you to initiate or join meetings with just a few clicks. Say goodbye to complicated setup processes and hello to effortless virtual interactions.</p>
+<h1 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h1>
+<p>DeepNira Connect X leverages cutting-edge technologies to deliver a seamless user experience:</p>
+<ol>
+<li>
+<p><strong>Next.js</strong>: Our front-end is built using Next.js, a powerful React framework that enables server-side rendering and efficient client-side routing. This ensures fast loading times and a smooth, responsive interface for users.</p>
+</li>
+<li>
+<p><strong>Clerk Authentication</strong>: For secure backend authentication, we rely on Clerk. Its robust authentication system offers user-friendly sign-up and login flows, as well as customizable authentication policies to meet our specific security needs.</p>
+</li>
+<li>
+<p><strong>Stream for Video Outputs</strong>: Video streaming is made possible through Stream, a reliable platform that provides scalable, low-latency video delivery. With Stream, users can enjoy high-quality video conferencing without interruptions or delays.</p>
+</li>
+<li>
+<p><strong>Vercel for Deployment</strong>: We trust Vercel for seamless deployment of our application. Its intuitive interface and continuous deployment capabilities allow us to quickly and effortlessly publish updates and new features to DeepNira Connect X.</p>
+</li>
+<li>
+<p><strong>VS Code as Code Editor</strong>: Our development relies on Visual Studio Code (VS Code) for efficient coding and collaboration. With its extensive selection of extensions and powerful editing features, VS Code streamlines the development process and enhances productivity.</p>
+</li>
+</ol>
+<p>By leveraging these technologies, DeepNira Connect X ensures a secure, reliable, and high-performance platform for virtual collaboration and communication.</p>
+<h1 id="about-clerk-authentication">About Clerk Authentication<a hidden class="anchor" aria-hidden="true" href="#about-clerk-authentication">#</a></h1>
+<p>Clerk Authentication serves as the robust backbone of DeepNira Connect X&rsquo;s backend authentication system. With Clerk, we ensure that user authentication is not just secure, but also seamless and user-friendly. Clerk offers a range of authentication features, including customizable sign-up and login flows, passwordless authentication options, and multi-factor authentication for enhanced security. Its flexible authentication policies allow us to tailor the authentication process to our specific requirements, providing a frictionless experience for users while maintaining the highest standards of security. DeepNira Connect X users can trust that their data and interactions are protected, thanks to the advanced authentication capabilities provided by Clerk.</p>
+<h3 id="-clerk-docshttpsclerkcomdocs">🔗 <a href="https://clerk.com/docs">Clerk Docs</a><a hidden class="anchor" aria-hidden="true" href="#-clerk-docshttpsclerkcomdocs">#</a></h3>
+<h1 id="how-i-give-approach-to-web-app">How I Give Approach to Web App<a hidden class="anchor" aria-hidden="true" href="#how-i-give-approach-to-web-app">#</a></h1>
+<p>Approaching frontend and backend development in Next.js with a combination of reading documentation and utilizing resources like GitHub for assistance can be a highly effective strategy. Here&rsquo;s a suggested approach:</p>
+<ol>
+<li>
+<p><strong>Understanding Next.js Fundamentals</strong>: Start by reading the official Next.js documentation to grasp the fundamentals of building applications with Next.js. This includes learning about server-side rendering, routing, data fetching, and component-based architecture.</p>
+</li>
+<li>
+<p><strong>Exploring GitHub Repositories</strong>: Search GitHub repositories for Next.js projects to see how others have structured their frontend code. Look for repositories with well-documented code and examples that align with your project&rsquo;s requirements. Analyze how they handle routing, state management, and component organization.</p>
+</li>
+<li>
+<p><strong>Learning from Tutorials and Guides</strong>: Explore tutorials, guides, and blog posts related to Next.js frontend development. These resources often provide step-by-step instructions and practical examples to help you understand concepts and best practices.</p>
+</li>
+<li>
+<p><strong>Implementing Backend Functionality with Clerk Authentication</strong>: Refer to Clerk Authentication documentation to integrate authentication features into your Next.js application&rsquo;s backend. Follow the provided guides and examples to set up user authentication, manage user sessions, and handle authentication-related tasks securely.</p>
+</li>
+<li>
+<p><strong>Utilizing Community Support</strong>: Engage with the Next.js community on platforms like GitHub, Stack Overflow, and forums dedicated to Next.js development. Ask questions, seek advice, and share your experiences to benefit from the collective knowledge and expertise of the community.</p>
+</li>
+<li>
+<p><strong>Experimenting and Iterating</strong>: As you gain familiarity with Next.js frontend and backend development, experiment with different approaches, tools, and libraries to find what works best for your project. Iterate on your codebase based on feedback, performance considerations, and evolving requirements.</p>
+</li>
+</ol>
+<p>By combining self-study through documentation with active engagement with the developer community, you can effectively navigate frontend and backend development in Next.js using Nexus, leveraging resources like GitHub for support and inspiration along the way.</p>
+<h1 id="mentors-support">Mentors Support<a hidden class="anchor" aria-hidden="true" href="#mentors-support">#</a></h1>
+<p>Taking help from mentors can greatly accelerate your learning and development process in Next.js with Nexus. Here&rsquo;s a suggested approach:</p>
+<ol>
+<li>
+<p><strong>Identifying Potential Mentors</strong>: Look for experienced developers in the Next.js and Nexus communities who are willing to offer guidance and support. This could be accomplished through networking events, online forums, social media platforms, or developer communities like Discord or Slack.</p>
+</li>
+<li>
+<p><strong>Reaching Out</strong>: Once you&rsquo;ve identified potential mentors, reach out to them with a polite and concise message expressing your interest in learning more about Next.js and Nexus development. Explain your background, your current level of proficiency, and specific areas where you could benefit from their expertise.</p>
+</li>
+<li>
+<p><strong>Establishing Expectations</strong>: Clarify your expectations for the mentoring relationship, including the frequency and format of interactions, preferred communication channels, and the specific topics or challenges you&rsquo;d like to address. Be respectful of their time and availability, and be prepared to adapt to their schedule.</p>
+</li>
+<li>
+<p><strong>Actively Engaging in Learning</strong>: During mentoring sessions, come prepared with questions, code snippets, or specific challenges you&rsquo;re facing in your Next.js and Nexus projects. Take notes, listen attentively, and actively participate in discussions to maximize the value of each interaction.</p>
+</li>
+<li>
+<p><strong>Seeking Feedback and Guidance</strong>: Don&rsquo;t hesitate to seek feedback on your code, architecture decisions, and overall project strategy from your mentors. Be open to constructive criticism and suggestions for improvement, and use their expertise to refine your skills and elevate the quality of your work.</p>
+</li>
+<li>
+<p><strong>Applying Lessons Learned</strong>: After each mentoring session, take time to reflect on the insights gained and apply them to your Next.js and Nexus projects. Experiment with new techniques, implement best practices, and incorporate feedback to continually enhance your development skills.</p>
+</li>
+<li>
+<p><strong>Expressing Gratitude</strong>: Show appreciation for your mentors&rsquo; time, guidance, and expertise by expressing gratitude through thank-you notes, testimonials, or recommendations. Building positive relationships with mentors can lead to long-term mentorship opportunities and valuable connections within the developer community.</p>
+</li>
+</ol>
+<p>By actively engaging with mentors, seeking their guidance, and applying the lessons learned to your Next.js and Nexus projects, you can accelerate your learning journey and achieve greater proficiency in frontend and backend development.</p>
+<h1 id="tech-stacks-used">Tech Stacks Used<a hidden class="anchor" aria-hidden="true" href="#tech-stacks-used">#</a></h1>
+<ol>
+<li>
+<p><strong>Hardware</strong>:</p>
+<ul>
+<li>Mac M1 laptop: Utilized as the primary development machine for coding and testing.</li>
+</ul>
+</li>
+<li>
+<p><strong>Frontend Development</strong>:</p>
+<ul>
+<li>Next.js: Framework for building React applications with server-side rendering and routing.</li>
+<li>React: JavaScript library for building user interfaces.</li>
+<li>HTML/CSS: Standard languages for structuring and styling web pages.</li>
+<li>GitHub: Version control platform for managing codebase and collaboration.</li>
+</ul>
+</li>
+<li>
+<p><strong>Backend Development</strong>:</p>
+<ul>
+<li>Clerk Authentication: Service for backend authentication, managing user sessions, and authentication-related tasks.</li>
+<li>Node.js: JavaScript runtime environment for executing server-side code.</li>
+<li>Express.js: Web application framework for building APIs and handling HTTP requests.</li>
+<li>MongoDB: NoSQL database for storing application data.</li>
+<li>Mongoose: MongoDB object modeling library for Node.js.</li>
+<li>GitHub: Version control platform for managing backend codebase and collaboration.</li>
+</ul>
+</li>
+<li>
+<p><strong>Video Streaming</strong>:</p>
+<ul>
+<li>Stream: Platform for integrating video streaming capabilities into the application.</li>
+</ul>
+</li>
+<li>
+<p><strong>Deployment</strong>:</p>
+<ul>
+<li>Vercel: Platform for deploying Next.js applications with ease and scalability.</li>
+</ul>
+</li>
+<li>
+<p><strong>Documentation</strong>:</p>
+<ul>
+<li>Next.js Documentation: Official documentation for Next.js framework, providing guidance on usage, features, and best practices.</li>
+<li>Clerk Documentation: Documentation for Clerk Authentication, offering resources for integrating authentication features into the backend.</li>
+<li>Stream Documentation: Documentation for Stream platform, offering resources for integrating video streaming capabilities.</li>
+<li>GitHub: Platform for accessing documentation, repositories, and community resources for various technologies.</li>
+</ul>
+</li>
+</ol>
+<p>By leveraging these technologies and tools, the development team can efficiently build, deploy, and maintain DeepNira Connect X, ensuring a seamless user experience for virtual collaboration and communication.</p>
+<h1 id="thats-all-folks">That&rsquo;s all folks<a hidden class="anchor" aria-hidden="true" href="#thats-all-folks">#</a></h1>
+<p>That was all about the My Project Hope You Like it</p>
+<p>Do Follow Me On Github</p>
+<p>Thanks a lot for reading!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://github.com/thecarlover/ojasvimital.site.git/tags/zoom/">Zoom</a></li>
+      <li><a href="https://github.com/thecarlover/ojasvimital.site.git/tags/stream/">Stream</a></li>
+      <li><a href="https://github.com/thecarlover/ojasvimital.site.git/tags/clerk/">Clerk</a></li>
+      <li><a href="https://github.com/thecarlover/ojasvimital.site.git/tags/developer/">Developer</a></li>
+      <li><a href="https://github.com/thecarlover/ojasvimital.site.git/tags/vs-code/">VS Code</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://github.com/thecarlover/ojasvimital.site.git">Ojasvi Mittal</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

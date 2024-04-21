@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Accomplishments on Ojasvi Mittal</title>
+    <link>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/</link>
+    <description>Recent content in Accomplishments on Ojasvi Mittal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/thecarlover/ojasvimital.site.git/accomplishments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Analytics</title>
+      <link>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/google/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/google/</guid>
+      <description>Google Analytics Academy Course Link Course Overview Google Analytics for Beginners Google Analytics for Beginners shows new users how to:
+Create an account Implement tracking code Set up data filters You&amp;rsquo;ll learn how to navigate the Google Analytics interface and reports, and set up dashboards and shortcuts. The course will also demonstrate how to analyze basic Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking.
+This course is about Universal Analytics.</description>
+    </item>
+    
+    <item>
+      <title>Freecode Camp</title>
+      <link>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/freecode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/freecode/</guid>
+      <description>Free Code Camp Responsive Design Certification The FreeCodeCamp Responsive Web Design Certification is a comprehensive 300-hour course designed to equip learners with the skills needed to create responsive and visually appealing websites. Throughout the course, participants will delve into various aspects of web development, from fundamental concepts to advanced techniques, all while focusing on the principles of responsive design.
+Course Overview The course covers a wide range of topics, including HTML, CSS, CSS Grid, Flexbox, and responsive design principles.</description>
+    </item>
+    
+  </channel>
+</rss>

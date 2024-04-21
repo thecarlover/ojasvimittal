@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>analytics on Ojasvi Mittal</title>
+    <link>https://github.com/thecarlover/ojasvimital.site.git/tags/analytics/</link>
+    <description>Recent content in analytics on Ojasvi Mittal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/thecarlover/ojasvimital.site.git/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Analytics</title>
+      <link>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/google/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/google/</guid>
+      <description>Google Analytics Academy Course Link Course Overview Google Analytics for Beginners Google Analytics for Beginners shows new users how to:
+Create an account Implement tracking code Set up data filters You&amp;rsquo;ll learn how to navigate the Google Analytics interface and reports, and set up dashboards and shortcuts. The course will also demonstrate how to analyze basic Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking.
+This course is about Universal Analytics.</description>
+    </item>
+    
+  </channel>
+</rss>

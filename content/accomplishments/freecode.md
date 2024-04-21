@@ -5,7 +5,7 @@ dateString: Apr 2024
 draft: false
 tags: ["freecodecamp","responsive","web","certificate"]
 cover: 
-    image: "/accom/cer2.png"
+    image: "/accom/.cer2.png"
 
 ---
 

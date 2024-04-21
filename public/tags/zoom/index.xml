@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zoom on Ojasvi Mittal</title>
+    <link>https://github.com/thecarlover/ojasvimital.site.git/tags/zoom/</link>
+    <description>Recent content in Zoom on Ojasvi Mittal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/thecarlover/ojasvimital.site.git/tags/zoom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I am Making DeepNira ConnectX</title>
+      <link>https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/thecarlover/ojasvimital.site.git/blog/deepniraconnectx/read/</guid>
+      <description>DeepNira Connect X is a web application similar to Zoom, providing robust video conferencing and collaboration features for seamless remote communication.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>freecodecamp on Ojasvi Mittal</title>
+    <link>https://github.com/thecarlover/ojasvimital.site.git/tags/freecodecamp/</link>
+    <description>Recent content in freecodecamp on Ojasvi Mittal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/thecarlover/ojasvimital.site.git/tags/freecodecamp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freecode Camp</title>
+      <link>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/freecode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/thecarlover/ojasvimital.site.git/accomplishments/freecode/</guid>
+      <description>Free Code Camp Responsive Design Certification The FreeCodeCamp Responsive Web Design Certification is a comprehensive 300-hour course designed to equip learners with the skills needed to create responsive and visually appealing websites. Throughout the course, participants will delve into various aspects of web development, from fundamental concepts to advanced techniques, all while focusing on the principles of responsive design.
+Course Overview The course covers a wide range of topics, including HTML, CSS, CSS Grid, Flexbox, and responsive design principles.</description>
+    </item>
+    
+  </channel>
+</rss>
