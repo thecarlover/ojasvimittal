@@ -1,7 +1,7 @@
 ---
 title: "Jim Corbett National Park Website with TailwindCss"
 description: "Jim Corbett National Park The Epitome of wildlife beauty in India."
-dateString: Jan 2024
+dateString: Jan 2023
 draft: false
 tags: ["wild", "Programming", "tailwindcss","coding","projects"]
 weight: 101
