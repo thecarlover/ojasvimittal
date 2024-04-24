@@ -6,7 +6,7 @@ draft: false
 tags: ["me","about","aboutme"]
 weight: 101
 cover: 
-    image: "./about/me.heic"
+    image: "./about/me.jpg"
 
 ---
 
