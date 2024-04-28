@@ -61,8 +61,8 @@ params:
     title: "Ojasvi Mittal"
     subtitle: "An enthusiastic third-year undergraduate, currently pursuing a Bachelor's in Computer Science and Engineering at Graphic Era Hill University, Dehradun Campus, I am deeply passionate about creating captivating digital experiences. Specializing in web development, I thrive on transforming concepts into reality, crafting elegant user interfaces and robust backend systems. Proficient in a diverse array of technologies, including the MERN stack (MongoDB, Express, React, Node), as well as frameworks and libraries such as Clerk, Hugo, Three.js, Bootstrap, WebRTC, and Stream, I am dedicated to continual learning through workshops and hands-on projects. Committed to excellence, I actively engage in recreating various websites, honing my skills in both front-end and back-end development. With each endeavor, my goal is to surpass boundaries, deliver impactful solutions, and make meaningful contributions to the ever-evolving field of development."
     imageUrl: "home/profile.jpg"
-    imageWidth: 310
-    imageHeight: 320
+    imageWidth: 320
+    imageHeight: 300
     buttons:
     - name: Resume
     url: "https://app.luminpdf.com/viewer/6624eac474191ff65a6253ad"
