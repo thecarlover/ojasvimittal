@@ -4,10 +4,13 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
+        <p id="para">{{ .Content | markdownify }}</p>
     </div>
     <footer class="entry-footer">
         {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
 </article>
+
+
+
 {{- end -}}
