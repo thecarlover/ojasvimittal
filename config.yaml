@@ -17,11 +17,6 @@ menu:
       name: About
       url: /about
       weight: 30
-   
-    #   name: Projects
-    #   url: /projects
-    # - identifier: projects
-    #   weight: 30
     - identifier: experience
       name: Experience
       url: /experience
@@ -34,15 +29,6 @@ menu:
       name: Search
       url: /search
       weight: 50
-   
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
 
 params:
   # theme
@@ -52,7 +38,7 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
 
-  # for enchanced SEO
+  # for enhanced SEO
   env: production
 
   # Home Page
@@ -64,8 +50,8 @@ params:
     imageWidth: 320
     imageHeight: 300
     buttons:
-    - name: Resume
-    url: "https://app.luminpdf.com/viewer/6624eac474191ff65a6253ad"
+      - name: Resume
+        url: "https://geuac-my.sharepoint.com/:b:/g/personal/ojasvimittal_210111362_gehu_ac_in/EUZKse83GxZPm1gwTE4YsWkBqaoTpJUFYtPhs38RcbzVhA?e=MdnfrM"
 
   # List View
   hideDescriptionInList: false
