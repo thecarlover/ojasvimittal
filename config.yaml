@@ -21,15 +21,25 @@ menu:
       name: Experience
       url: /experience
       weight: 40
+      
     - identifier: accomplishments
       name: Accomplishments
       url: /accomplishments
       weight: 50
+
+    - identifier: Side
+      name: SidePassions
+      url: /Side
+      weight: 60
+
+
     - identifier: search
       name: Search
       url: /search
       weight: 50
 
+
+   
 params:
   # theme
   showToc: true
