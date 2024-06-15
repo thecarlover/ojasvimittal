@@ -1,3 +1,5 @@
+<!-- layouts/partials/profile.html -->
+
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
@@ -24,37 +26,44 @@
                 <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
                     height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
                 <div class="animated-border"></div>
-                
             </div>
         {{- else }}
         <div class="profile-image">
-            
             <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
             <div class="animated-border"></div>
-           
         </div>
-        
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" site.Params.socialIcons -}}
 
-        {{- with .buttons }}
         <div class="buttons">
+            {{- with .buttons }}
             {{- range . }}
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
                 <span class="button-inner">{{ .name }}</span>
             </a>
             {{- end }}
-          
+            {{- end }}
+            
+            <!-- Contact Me button -->
+            <button class="button" onclick="openContactDialog()">
+                <span class="button-inner">Contact Me</span>
+            </button>
         </div>
-        {{- end }}
     </div>
-    {{- end}}
+    {{- end }}
 </div>
 
+<!-- Contact Form Dialog Box -->
+<div id="contact-dialog" class="dialog">
+    <div class="dialog-content">
+        <span class="close" onclick="closeContactDialog()">&times;</span>
+        {{- partial "contact_form.html" . -}}
+    </div>
+</div>
 
 <style>
     .profile-image {
@@ -87,4 +96,68 @@
             transform: scale(1);
         }
     }
+
+    /* Style for dialog box */
+    .dialog {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        backdrop-filter: blur(10px); /* Apply backdrop blur */
+        -webkit-backdrop-filter: blur(10px); /* For Safari */
+        background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+        
+        padding-top: 120px; /* Location of the box */
+    }
+
+    .dialog-content {
+        background-color: #fefefe;
+        
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
 </style>
+
+<script>
+    // Open the dialog
+    function openContactDialog() {
+        var dialog = document.getElementById('contact-dialog');
+        dialog.style.display = 'block';
+    }
+
+    // Close the dialog
+    function closeContactDialog() {
+        var dialog = document.getElementById('contact-dialog');
+        dialog.style.display = 'none';
+    }
+
+    // Close the dialog when clicking outside of it
+    window.onclick = function(event) {
+        var dialog = document.getElementById('contact-dialog');
+        if (event.target == dialog) {
+            dialog.style.display = 'none';
+        }
+    };
+</script>

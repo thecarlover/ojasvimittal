@@ -1,12 +1,129 @@
+
+
 <div id="contact-form">
-    <form id="contact-form-data">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <div id="form-status"></div>
+  <form id="contact-form-data">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" required autocomplete="additional-name" /><br />
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" required autocomplete="additional-name" /><br />
+    <label for="message">Message:</label><br />
+    <textarea id="message" rows="4" required></textarea
+    ><br /><br />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="form-status"></div>
 </div>
+
+<style>
+  /* CSS for Contact Form Styling */
+
+  /* CSS for Contact Form Styling */
+
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: calc(100% - 24px); /* Adjust for padding */
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #555; /* Text color */
+  }
+
+  #contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+
+  #contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  #contact-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    #contact-form {
+      width: 100%;
+      padding: 15px;
+    }
+
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form textarea {
+      width: 100%;
+    }
+  }
+</style>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js">
+
+
+
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyCRT6m2gB3bNzZcV-tCxXaHclWlPwouKRQ",
+    authDomain: "ojasvimittal-1ca68.firebaseapp.com",
+    databaseURL: "https://ojasvimittal-1ca68-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "ojasvimittal-1ca68",
+    storageBucket: "ojasvimittal-1ca68.appspot.com",
+    messagingSenderId: "284240235295",
+    appId: "1:284240235295:web:2830828338494bfa50fe2a",
+    measurementId: "G-TXLYXWWZ5X"
+  };
+
+    firebase.initializeApp(firebaseConfig);
+
+      var database = firebase.database().ref("contactForm");
+
+  // Function to handle form submission
+  document.getElementById("contact-form-data").addEventListener("submit", submitForm);
+
+  function submitForm(e){
+    e.preventDefault();
+  }
+
+  var name=getElementVal('name');
+  var email=getElementVal('email');
+  var message=getElementVal('message');
+
+  console.log(name,email,message);
+
+
+
+
+
+
+
+</script>
