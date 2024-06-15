@@ -60,10 +60,11 @@ params:
     bitmojiUrl: "home/profile.jpg"
     imageWidth: 320
     imageHeight: 300
+    
     buttons:
       - name: Resume
         url: "https://geuac-my.sharepoint.com/:b:/g/personal/ojasvimittal_210111362_gehu_ac_in/EUZKse83GxZPm1gwTE4YsWkBqaoTpJUFYtPhs38RcbzVhA?e=MdnfrM"
-
+    
   # List View
   hideDescriptionInList: false
 
